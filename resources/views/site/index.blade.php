@@ -98,6 +98,8 @@
 
                     <div class="row row-cols-1 row-cols-md-2 g-4">
 
+                        <x-card queue="teste"></x-card>
+
                         <div class="col">
                             <div class="card" style="width: 15rem;">
                                 <div class="card-body">
@@ -164,7 +166,7 @@
                 <label for="" class="form-label">Data de abertura</label>
                 <input type="date" name="" id="" class="form-control">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <label for="" class="form-label">&nbsp;</label>
                 <select name="" id="" class="form-select">
                     <option>Prioridade</option>
@@ -178,8 +180,11 @@
                     <option value=""></option>
                 </select>
             </div>
-            <div class="col-md-2" style="margin: auto 0 0 0;">
-                <input type="button" value="Novo Solicitante" class="btn btn-primary" style="height: 36px">
+            <div class="col-md-2" style="margin: auto 0 0 0;"
+            >
+                <input type="button" value="Novo Solicitante" class="btn btn-primary"
+{{--                       style="height: 36px"--}}
+                >
             </div>
         </div>
 
